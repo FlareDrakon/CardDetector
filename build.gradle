@@ -1,0 +1,13 @@
+apply plugin: "java"
+apply plugin: "application"
+apply plugin: "idea"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+}
+
+mainClassName = 'Starter'
